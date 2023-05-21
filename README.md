@@ -14,4 +14,4 @@ A Patient BMI Calculator.
 ## Features
 Practice only in browser!
 
-- ⚛️ **Javascript** — The HyperText Markup Language  
+- ⚛️ **Javascript** — A Programming Language  
