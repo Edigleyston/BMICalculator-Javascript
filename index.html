@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptbr">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/indexStyle.css">
+    
+    <title>DMI Calculator</title>
+
+    <script src="JS/script.js" defer type="module"></script>
+    
 </head>
 <body>
-    <script src="script.js"></script>
+<div class="container">
+    <main class="card">
+       
+        <form action="">
+        <h1 class="title">Cálculo de IMC</h1>
+
+        <div class="input-wrapper">
+            <label for="weight">Peso(kg)</label>
+            <input type="number" id="weight" placeholder="60">
+        </div>
+        <div class="input-wrapper">
+            <label for="height">Altura(m)</label>
+            <input type="number" id="height" placeholder="165">
+        </div>
+        <button id="btnCalc">Calcular IMC</button>
+       </form>
+
+       
+    </main>
+    
+</div>
+
+<div class="modal-wrapper">
+ <div class="modal card1">
+    <button class="close">
+        <img src="assets/close-line-icon.svg" alt="botao close para fechar pop-up">
+    </button>
+     <h2 class="title">SEU IMC é de X</h2>
+ </div>
+</div>
+
+<div class="alert-error">
+    Digite somente número
+</div>
+    
 </body>
 </html>
